@@ -1,0 +1,38 @@
+{
+  "name": "joai-typefully",
+  "version": "0.3.0",
+  "description": "Connect Typefully to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/typefully",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "typefully"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Typefully by JoAi",
+    "shortDescription": "Connect Typefully to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "Create, schedule, and optimize your <strong>Twitter tweets and threads</strong> for maximum engagement. <br />Professional <strong>social media content creation</strong> and <strong>automated scheduling</strong> tool for <strong>Twitter marketing</strong> and <strong>thread writing</strong>.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/typefully",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the Typefully tools available in this app.",
+      "Explain what setup or authentication Typefully needs before I run an action.",
+      "Use Typefully to help me with the task I describe next."
+    ]
+  }
+}

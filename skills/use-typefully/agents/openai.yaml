@@ -1,0 +1,18 @@
+interface:
+  display_name: "Typefully"
+  short_description: "Connect Typefully to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server."
+  icon_small: "https://raw.githubusercontent.com/JoAiHQ/assets/refs/heads/main/apps/logos/typefully.svg"
+  icon_large: "https://raw.githubusercontent.com/JoAiHQ/assets/refs/heads/main/apps/logos/typefully.svg"
+  brand_color: "#199BF5"
+  default_prompt: "List the Typefully tools available in this app."
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "joai-typefully"
+      description: "Typefully MCP server by JoAi"
+      transport: "streamable_http"
+      url: "https://cortex.joai.ai/mcp/apps/typefully"

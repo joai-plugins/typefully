@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "joai-typefully": {
+      "url": "https://cortex.joai.ai/mcp/apps/typefully"
+    }
+  }
+}
